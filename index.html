@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Gracious Givers Foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="">
+            <img src="logo.png" width="30" height="30" alt="logo">
+        </a>
+
+        <a class="navbar-brand" href="https://www.thesparksfoundationsingapore.org">Gracious Givers Foundation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div style="background-image: url('bkgimage.jpg');"></div>
+    <h2>
+        <strong>Raise Funds For a Cause!
+    </h2>
+    <br>
+    <br>
+    <div class="container">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img1.jpg" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img2.png" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img3.jpg" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img4.jpg" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img5.jpg" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img6.png" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img7.png" height="350">
+                        </div>
+                        <div class="mySlides fade">
+                            <img class="card-img-top" src="img8.jpg" height="350">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h4>Join the fight against POVERTY !</h4><br>
+                        <h4><i>"Your greatness is not what you have, <br>it’s what you give."</i></br></h4>
+                        <br><br>
+                        <form><script src="https://checkout.razorpay.com/v1/payment-button.js"
+                             data-payment_button_id="pl_HjDU3WIq4iEsL5" async> </script> 
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 1500);
+        }
+    </script>
+
+    
+    <footer class="text-muted text-center text-small">
+        <p class="mb-1">© Kanishka Malik | 2021 | Gracious Givers</p>
+
+    </footer>
+</body>
+
+</html>

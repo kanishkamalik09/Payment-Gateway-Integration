@@ -1,0 +1,152 @@
+body {
+    background-image: url("bkgimage.jpg");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .navbar {
+    background-image: linear-gradient(135deg, #fffeff 10%,  rgb(232 239 206) 100%);
+    box-shadow: 0 4px 8px 0 rgba(230, 31, 31, 0.2);
+    border-radius: 7px;
+  }
+  
+  .card {
+    background-image: linear-gradient(135deg, #fffeff 10%, #e8efce 100%);
+    box-shadow: 0 4px 8px 0 rgba(207, 51, 137, 0.2);
+    transition: 0.3s;
+    border-radius: 1px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(15, 230, 147, 0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    border-radius: 5px;
+    color:rgb(2, 63, 2);
+    height: 100%;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .text {
+      font-size: 11px;
+    }
+  }
+  
+  .card-img-top {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+  }
+  
+  h2,
+  h4,
+  h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    text-shadow: 2px 2px 4px #dfdcdc;
+    text-align: center;
+  }
+  
+  .card-body {
+    text-align: center;
+    margin-top: 80px;
+    
+  }
+  
+  footer {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(135deg, #fffeff 10%, #d7fffe 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    transition: width 0.28s ease-in-out;
+  }
+  
+  textarea:focus {
+    width: 84%;
+    outline: none;
+  }
+  
+  input[type="text"]:focus {
+    width: 84%;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color: #8b53f3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 20%;
+    transition: width 0.28s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #290447;
+    width: 23%;
+  }
+  
+  .fa {
+    padding: 7px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
